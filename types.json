@@ -1,0 +1,96 @@
+{
+  "typeMappings": [
+    {
+      "searchKey": "PA-",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "TPPRO",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "-ELITE",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "EXPRE",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "DTP",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "BX-",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "PP-CASH",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "LTD",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "LTF",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "S1",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "APEX-",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "LL-",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "tcp",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "gau",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "TPT",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "BX",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "PP-",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "LTE",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "practice",
+      "accountType": "PRAC"
+    },
+    {
+      "searchKey": "EV",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "SF",
+      "accountType": "PA"
+    },
+    {
+      "searchKey": "EVAL",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "ampclearing",
+      "accountType": "Live"
+    }
+  ]
+} 
