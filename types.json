@@ -89,8 +89,16 @@
       "accountType": "EVAL"
     },
     {
+        "searchKey": "BLU",
+        "accountType": "PA"
+    },
+    {
       "searchKey": "ampclearing",
       "accountType": "Live"
+    },
+    {
+        "searchKey": "amp",
+        "accountType": "Live"
     }
   ]
 } 
