@@ -49,12 +49,12 @@
       "firmName": "AMP/CQG"
     },
     {
-      "searchKey": "mffu",
-      "firmName": "MyFundedFutures"
-    },
-    {
         "searchKey": "amp",
         "firmName": "AMP/CQG"
+    },
+    {
+      "searchKey": "mffu",
+      "firmName": "MyFundedFutures"
     }
   ]
 } 
