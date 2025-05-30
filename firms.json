@@ -1,0 +1,60 @@
+{
+  "firmMappings": [
+    {
+      "searchKey": "takeprofit",
+      "firmName": "TakeProfitTrader"
+    },
+    {
+      "searchKey": "apex",
+      "firmName": "ApexTraderFunding"
+    },
+    {
+      "searchKey": "leeloo",
+      "firmName": "LeeLoo"
+    },
+    {
+      "searchKey": "natural",
+      "firmName": "LeeLoo"
+    },
+    {
+      "searchKey": "topstep",
+      "firmName": "Topstep"
+    },
+    {
+      "searchKey": "elitetrader",
+      "firmName": "EliteTraderFunding"
+    },
+    {
+      "searchKey": "uprofit",
+      "firmName": "UProfit"
+    },
+    {
+      "searchKey": "bulenox",
+      "firmName": "Bulenox"
+    },
+    {
+      "searchKey": "phidias",
+      "firmName": "Phidias"
+    },
+    {
+      "searchKey": "blueskytrading",
+      "firmName": "BluSky"
+    },
+    {
+      "searchKey": "lucidtrading",
+      "firmName": "LucidTrading"
+    },
+    {
+      "searchKey": "ampclearing",
+      "firmName": "AMP/CQG"
+    },
+    {
+      "searchKey": "mffu",
+      "firmName": "MyFundedFutures"
+    },
+    {
+        "searchKey": "amp",
+        "firmName": "AMP/CQG"
+    }
+  ]
+} 
