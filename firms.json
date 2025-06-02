@@ -55,6 +55,14 @@
     {
       "searchKey": "mffu",
       "firmName": "MyFundedFutures"
+    },
+    {
+      "searchKey": "fundedfuturesnetwork",
+      "firmName": "FundedFuturesNetwork"
+    },
+    {
+      "searchKey": "thefuturesdesk",
+      "firmName": "TheFuturesDesk"
     }
   ]
 } 
