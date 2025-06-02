@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "MFFUETL",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "FFN-",
       "accountType": "EVAL"
     },
@@ -85,11 +89,11 @@
       "accountType": "PRAC"
     },
     {
-      "searchKey": "EV",
+      "searchKey": "MFFUEV",
       "accountType": "EVAL"
     },
     {
-      "searchKey": "SF",
+      "searchKey": "MFFUSF",
       "accountType": "PA"
     },
     {
