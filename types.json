@@ -1,6 +1,14 @@
 {
   "typeMappings": [
     {
+      "searchKey": "FFN-",
+      "accountType": "EVAL"
+    },
+    {
+      "searchKey": "TFD",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "PA-",
       "accountType": "PA"
     },
