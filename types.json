@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "TTE",
+      "accountType": "PA"
+    },
+    {
       "searchKey": "MFFUETL",
       "accountType": "EVAL"
     },
