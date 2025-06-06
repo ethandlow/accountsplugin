@@ -1,0 +1,65 @@
+{
+    "drawdownRules": [
+        {
+            "searchKey": "default",
+            "formula": "(balance - cash) + auto_liquidate_threshold",
+            "parameterMapping": {
+                "balance": "balance",
+                "cash": "cash on hand",
+                "auto_liquidate_threshold": "auto liquidate threshold"
+            }
+        },
+        {
+            "searchKey": "MFFU",
+            "formula": "balance - intraday_stop_drawdown_balance",
+            "parameterMapping": {
+                "balance": "balance",
+                "intraday_stop_drawdown_balance": "intraday stop drawdown balance"
+            }
+        },
+        {
+            "searchKey": "APEX",
+            "formula": "balance - auto_liquidate_threshold_value",
+            "parameterMapping": {
+                "balance": "balance",
+                "auto_liquidate_threshold_value": "auto-liquidate threshold value"
+            }
+        },
+        {
+            "searchKey": "TPPRO",
+            "formula": "balance - auto_liquidate_threshold_value",
+            "parameterMapping": {
+                "balance": "balance",
+                "auto_liquidate_threshold_value": "auto-liquidate threshold value"
+            }
+        },
+        {
+            "searchKey": "TPT",
+            "formula": "(balance - cash) + (auto_liquidate_max_min_account_balance - auto_liquidate_threshold)",
+            "parameterMapping": {
+                "balance": "balance",
+                "cash": "cash on hand",
+                "auto_liquidate_max_min_account_balance": "auto liquidate max/min account balance",
+                "auto_liquidate_threshold": "auto liquidate threshold"
+            }
+        },
+        {
+            "searchKey": "BX-M",
+            "formula": "balance - auto_liquidate_threshold_value",
+            "parameterMapping": {
+                "balance": "balance",
+                "auto_liquidate_threshold_value": "auto-liquidate threshold value"
+            }
+        },
+        {
+            "searchKey": "LucidTrading",
+            "formula": "IFF(balance - min_account_balance < (balance - cash) + auto_liquidate_threshold, balance - min_account_balance, (balance - cash) + auto_liquidate_threshold)",
+            "parameterMapping": {
+                "balance": "balance",
+                "cash": "cash on hand",
+                "min_account_balance": "min account balance",
+                "auto_liquidate_threshold": "auto-liquidate threshold"
+            }
+        }
+    ]
+} 
