@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "PST-",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "TTE",
       "accountType": "PA"
     },
