@@ -1,6 +1,10 @@
 {
   "firmMappings": [
     {
+      "searchKey": "propshoptrader",
+      "firmName": "PropShopTrader"
+    },
+    {
       "searchKey": "thrivetrading",
       "firmName": "ThriveTrading"
     },
