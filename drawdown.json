@@ -2,10 +2,11 @@
     "drawdownRules": [
         {
             "searchKey": "default",
-            "formula": "(balance - cash) + auto_liquidate_threshold",
+            "formula": "IIF((balance - min_account_balance) < (balance - cash + auto_liquidate_threshold), balance - min_account_balance, (balance - cash) + auto_liquidate_threshold)",
             "parameterMapping": {
                 "balance": "balance",
                 "cash": "cash on hand",
+                "min_account_balance": "min account balance",
                 "auto_liquidate_threshold": "auto liquidate threshold"
             }
         },
@@ -50,16 +51,6 @@
                 "balance": "balance",
                 "auto_liquidate_threshold_value": "auto-liquidate threshold value"
             }
-        },
-        {
-            "searchKey": "LucidTrading",
-            "formula": "IIF((balance - min_account_balance) < (balance - cash + auto_liquidate_threshold), balance - min_account_balance, (balance - cash) + auto_liquidate_threshold)",
-            "parameterMapping": {
-                "balance": "balance",
-                "cash": "cash on hand",
-                "min_account_balance": "min account balance",
-                "auto_liquidate_threshold": "auto liquidate threshold"
-            }
         }
     ]
-} 
+}
