@@ -58,7 +58,7 @@
                 "balance": "balance",
                 "cash": "cash on hand",
                 "min_account_balance": "min account balance",
-                "auto_liquidate_threshold": "auto-liquidate threshold"
+                "auto_liquidate_threshold": "auto liquidate threshold"
             }
         }
     ]
