@@ -53,7 +53,7 @@
         },
         {
             "searchKey": "LucidTrading",
-            "formula": "IIF(balance - min_account_balance < (balance - cash) + auto_liquidate_threshold, balance - min_account_balance, (balance - cash) + auto_liquidate_threshold)",
+            "formula": "IIF((balance - min_account_balance) < (balance - cash + auto_liquidate_threshold), balance - min_account_balance, (balance - cash) + auto_liquidate_threshold)",
             "parameterMapping": {
                 "balance": "balance",
                 "cash": "cash on hand",
