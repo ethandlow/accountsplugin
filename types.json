@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "ETF",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "PST-",
       "accountType": "EVAL"
     },
@@ -29,7 +33,7 @@
       "accountType": "PA"
     },
     {
-      "searchKey": "-ELITE",
+      "searchKey": "ELITE",
       "accountType": "PA"
     },
     {
