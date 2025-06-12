@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "DT-",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "ETF",
       "accountType": "EVAL"
     },
