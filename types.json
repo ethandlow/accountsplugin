@@ -1,6 +1,10 @@
 {
   "typeMappings": [
     {
+      "searchKey": "FFNX-",
+      "accountType": "PA"
+    },
+    {
       "searchKey": "DT-",
       "accountType": "EVAL"
     },
