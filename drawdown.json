@@ -11,7 +11,7 @@
             }
         },
         {
-            "searchKey": "MFFU",
+            "searchKey": "MyFundedFutures",
             "formula": "balance - intraday_stop_drawdown_balance",
             "parameterMapping": {
                 "balance": "balance",
