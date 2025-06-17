@@ -11,6 +11,22 @@
             }
         },
         {
+            "searchKey": "MFFUEVEX",
+            "formula": "balance - stop_drawdown_balance",
+            "parameterMapping": {
+                "balance": "balance",
+                "stop_drawdown_balance": "stop drawdown balance"
+            }
+        },
+        {
+            "searchKey": "MFFUSFEX",
+            "formula": "balance - stop_drawdown_balance",
+            "parameterMapping": {
+                "balance": "balance",
+                "stop_drawdown_balance": "stop drawdown balance"
+            }
+        },
+        {
             "searchKey": "MyFundedFutures",
             "formula": "balance - intraday_stop_drawdown_balance",
             "parameterMapping": {
