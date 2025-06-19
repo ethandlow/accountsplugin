@@ -75,6 +75,10 @@
     {
       "searchKey": "thefuturesdesk",
       "firmName": "TheFuturesDesk"
+    },
+    {
+      "searchKey": "S1",
+      "firmName": "Topstep"
     }
   ]
 } 
