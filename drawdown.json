@@ -67,6 +67,14 @@
                 "balance": "balance",
                 "auto_liquidate_threshold_value": "auto-liquidate threshold value"
             }
+        },
+        {
+            "searchKey": "PP-CASH",
+            "formula": "balance - auto_liquidate_threshold",
+            "parameterMapping": {
+                "balance": "balance",
+                "auto_liquidate_threshold": "auto liquidate threshold"
+            }
         }
     ]
 }
