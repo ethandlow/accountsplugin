@@ -12,10 +12,11 @@
         },
         {
             "searchKey": "MFFUEVEX",
-            "formula": "balance - stop_drawdown_balance",
+            "formula": "balance - stop_drawdown_balance + open_pnl",
             "parameterMapping": {
                 "balance": "balance",
-                "stop_drawdown_balance": "stop drawdown balance"
+                "stop_drawdown_balance": "stop drawdown balance",
+                "open_pnl": "open p&l"
             }
         },
         {
