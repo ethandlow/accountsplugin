@@ -21,6 +21,15 @@
         },
         {
             "searchKey": "MFFUSFEX",
+            "formula": "balance - stop_drawdown_balance + open_pnl",
+            "parameterMapping": {
+                "balance": "balance",
+                "stop_drawdown_balance": "stop drawdown balance",
+                "open_pnl": "open p&l"
+            }
+        },
+        {
+            "searchKey": "MFFUSFEX",
             "formula": "balance - stop_drawdown_balance",
             "parameterMapping": {
                 "balance": "balance",
@@ -29,10 +38,11 @@
         },
         {
             "searchKey": "MyFundedFutures",
-            "formula": "balance - intraday_stop_drawdown_balance",
+            "formula": "balance - intraday_stop_drawdown_balance + open_pnl",
             "parameterMapping": {
                 "balance": "balance",
-                "intraday_stop_drawdown_balance": "intraday stop drawdown balance"
+                "intraday_stop_drawdown_balance": "intraday stop drawdown balance",
+                "open_pnl": "open p&l"
             }
         },
         {
