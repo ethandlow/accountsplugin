@@ -41,6 +41,10 @@
       "accountType": "PA"
     },
     {
+      "searchKey": "EVAL",
+      "accountType": "EVAL"
+    },
+    {
       "searchKey": "ELITE",
       "accountType": "PA"
     },
@@ -115,10 +119,6 @@
     {
       "searchKey": "MFFUSF",
       "accountType": "PA"
-    },
-    {
-      "searchKey": "EVAL",
-      "accountType": "EVAL"
     },
     {
       "searchKey": "BLU",
