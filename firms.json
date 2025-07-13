@@ -83,6 +83,10 @@
     {
       "searchKey": "EXPRESS",
       "firmName": "Topstep"
+    },
+    {
+      "searchKey": "EOD",
+      "firmName": "TradeDay"
     }
   ]
 } 
