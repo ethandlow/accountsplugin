@@ -135,6 +135,10 @@
     {
       "searchKey": "NinjaTraderBrokerage",
       "accountType": "Live"
+    },
+    {
+      "searchKey": "EOD",
+      "accountType": "PA"
     }
   ]
 } 
