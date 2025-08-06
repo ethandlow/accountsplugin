@@ -11,6 +11,14 @@
             }
         },
         {
+            "searchKey": "TFDRA",
+            "formula": "min_account_balance + balance",
+            "parameterMapping": {
+                "balance": "balance",
+                "min_account_balance": "min account balance"
+            }
+        },
+        {
             "searchKey": "MFFUEVEX",
             "formula": "balance - stop_drawdown_balance + open_pnl",
             "parameterMapping": {
@@ -89,3 +97,4 @@
         }
     ]
 }
+
