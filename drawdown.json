@@ -12,7 +12,7 @@
         },
         {
             "searchKey": "TFDRA",
-            "formula": "min_account_balance + balance",
+            "formula": "min_account_balance - balance",
             "parameterMapping": {
                 "balance": "balance",
                 "min_account_balance": "min account balance"
@@ -97,4 +97,5 @@
         }
     ]
 }
+
 
