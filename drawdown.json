@@ -94,9 +94,17 @@
                 "balance": "balance",
                 "auto_liquidate_threshold": "auto liquidate threshold"
             }
-        }
+        },
+        {
+            "searchKey": "SV",
+            "formula": "intraday_stop_drawdown_balance",
+            "parameterMapping": {
+                "intraday_stop_drawdown_balance": "intraday stop drawdown balance"
+            }
+        },
     ]
 }
+
 
 
 
