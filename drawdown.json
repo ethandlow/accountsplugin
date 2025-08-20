@@ -97,13 +97,15 @@
         },
         {
             "searchKey": "SV",
-            "formula": "intraday_stop_drawdown_balance",
+            "formula": "balance - intraday_stop_drawdown_balance",
             "parameterMapping": {
+                "balance": "balance",
                 "intraday_stop_drawdown_balance": "intraday stop drawdown balance"
             }
         },
     ]
 }
+
 
 
 
