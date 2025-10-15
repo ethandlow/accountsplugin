@@ -102,9 +102,18 @@
                 "balance": "balance",
                 "intraday_stop_drawdown_balance": "intraday stop drawdown balance"
             }
+        },
+        {
+            "searchKey": "DT",
+            "formula": "balance - auto_liquidate_threshold_value",
+            "parameterMapping": {
+                "balance": "balance",
+                "auto_liquidate_threshold_value": "auto-liquidate threshold value"
+            }
         }
     ]
 }
+
 
 
 
