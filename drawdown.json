@@ -11,6 +11,15 @@
             }
         },
         {
+            "searchKey": "CORE",
+            "formula": "balance - stop_drawdown_balance + open_pnl",
+            "parameterMapping": {
+                "balance": "balance",
+                "stop_drawdown_balance": "stop drawdown balance",
+                "open_pnl": "open p&l"
+            }
+        },
+        {
             "searchKey": "TFDRA",
             "formula": "(min_account_balance - balance) * -1",
             "parameterMapping": {
@@ -113,6 +122,7 @@
         }
     ]
 }
+
 
 
 
